@@ -31,7 +31,7 @@ class Bullet extends Floater {
   }
   public void show ()
   {
-    circle(myCenterX, myCenterY, 10);
+    ellipse(myCenterX, myCenterY, 10, 10);
   }
   public void move ()
   {
